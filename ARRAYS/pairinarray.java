@@ -17,3 +17,5 @@ public class pairinarray{
     printpairs(numbers);
   }
 }
+// to calculate total no of pairs n(n-1)/2 
+//code complexity O(n2)
