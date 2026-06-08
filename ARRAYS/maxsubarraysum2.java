@@ -1,5 +1,5 @@
 import java.util.*;
-public class maxsubarraysum{
+public class maxsubarraysum2{
   public static void maxsubarrays(int numbers[]){
     int currsum=0;
     int maxsum=Integer.MIN_VALUE;
