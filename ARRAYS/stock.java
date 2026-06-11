@@ -19,4 +19,4 @@ public class stock{
       System.out.println(buyandsellstock(prices));
   }
 } 
-//time complxity is O(n)
+//time complxity is O(n) igtxt
