@@ -115,7 +115,7 @@ By completing these programs, you will understand:
 
 ## 👨‍💻 Author
 
-**Yoganand**
+**Pavuluri Yoganand**
 
 GitHub: https://github.com/yoganand-cmd
 
