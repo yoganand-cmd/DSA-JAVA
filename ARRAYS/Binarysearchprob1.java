@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class Binarysearchprob1{
 
     public static int search(int[] nums, int target) {
         int min = minSearch(nums);
@@ -52,7 +52,7 @@ public class Main {
         return left;
     }
 
-    public static void Binarysearchprob1(String[] args) {
+    public static void main(String[] args) {
         int[] nums = {4, 5, 6, 7, 0, 1, 2};
 
         System.out.println(search(nums, 0)); // 4
