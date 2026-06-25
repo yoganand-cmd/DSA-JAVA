@@ -104,7 +104,6 @@ java Arraybasic
 ## 🎯 Learning Objectives
 
 By completing these programs, you will understand:
-
 - How arrays are stored and manipulated.
 - Different searching techniques.
 - Optimization of brute-force solutions.
