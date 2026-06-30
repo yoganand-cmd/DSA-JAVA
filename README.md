@@ -1,59 +1,69 @@
-# DSA-JAVA : Arrays
+# DSA-JAVA
 
-This repository contains Java implementations of fundamental **Array Data Structure and Algorithms (DSA)** concepts. These programs are designed for beginners to understand array operations, searching techniques, optimization problems, and common interview questions.
+A collection of Java programs covering fundamental **Data Structures and Algorithms (DSA)** concepts. This repository is intended for learning, practice, and interview preparation.
 
-## 📂 Array Programs Included
+## 📚 Topics Covered
 
-| File Name | Description |
-|-----------|-------------|
-| `Arraybasic.java` | Basic array creation, input, and output operations |
-| `Arraybyreference.java` | Demonstrates passing arrays by reference and updating elements |
-| `Binarysearch.java` | Binary Search implementation (sorted array required) |
-| `linearsearch.java` | Linear Search implementation |
-| `largestelement.java` | Find the largest element in an array |
-| `smallestelement.java` | Find the smallest element in an array |
-| `reversearray.java` | Reverse an array using two-pointer approach |
-| `pairinarray.java` | Print all possible pairs in an array |
-| `subarrays.java` | Generate and print all subarrays |
-| `maxsubarraysum.java` | Maximum Subarray Sum using Brute Force |
-| `maxsubarraysum2.java` | Maximum Subarray Sum using Prefix Sum |
-| `maxsubarraysum3.java` | Maximum Subarray Sum using Kadane's Algorithm |
-| `stock.java` | Best Time to Buy and Sell Stock problem |
-| `trappedrainwater.java` | Trapping Rain Water problem |
-| `repeatingnum.java` | Check for duplicate/repeating elements in an array |
+### Arrays
 
----
+* Array Basics
+* Arrays by Reference
+* Linear Search
+* Binary Search
+* Binary Search Problems
+* Largest Element in an Array
+* Smallest Element in an Array
+* Reverse Array
+* Pair in Array
+* Repeating Number
+* Subarrays
+* Maximum Subarray Sum (Brute Force)
+* Maximum Subarray Sum (Prefix Sum)
+* Maximum Subarray Sum (Kadane's Algorithm)
+* Trapping Rain Water
+* Stock Buy and Sell Problem
 
-## 🚀 Topics Covered
+### Sorting Algorithms
 
-- Array Basics
-- Array Traversal
-- Searching Algorithms
-  - Linear Search
-  - Binary Search
-- Array Manipulation
-  - Reverse Array
-  - Pass Array by Reference
-- Pair and Subarray Generation
-- Maximum Subarray Sum
-  - Brute Force
-  - Prefix Sum
-  - Kadane's Algorithm
-- Interview Problems
-  - Trapping Rain Water
-  - Buy & Sell Stocks
-  - Duplicate Detection
+* Bubble Sort
+* Selection Sort
+* Insertion Sort
 
----
+## 📂 Repository Structure
 
-## 🛠️ Prerequisites
+```
+DSA-JAVA/
+│
+├── ARRAYS/
+│   ├── Arraybasic.java
+│   ├── Arraybyreference.java
+│   ├── Binarysearch.java
+│   ├── Binarysearchprob1.java
+│   ├── Binarysearchprob2.java
+│   ├── dsa11.java
+│   ├── largestelement.java
+│   ├── linearsearch.java
+│   ├── maxsubarraysum.java
+│   ├── maxsubarraysum2.java
+│   ├── maxsubarraysum3.java
+│   ├── pairinarray.java
+│   ├── repeatingnum.java
+│   ├── reversearray.java
+│   ├── smallestelement.java
+│   ├── stock.java
+│   ├── stockdsa8.java
+│   ├── subarrays.java
+│   └── trappedrainwater.java
+│
+├── sorting/
+│   ├── bubblesort.java
+│   ├── selectionsort.java
+│   └── insertionsort.java
+│
+└── README.md
+```
 
-- Java JDK 8 or above
-- Any Java IDE (VS Code, IntelliJ IDEA, Eclipse) or Command Line
-
----
-
-## ▶️ How to Run
+## 🚀 How to Run
 
 1. Clone the repository:
 
@@ -61,67 +71,55 @@ This repository contains Java implementations of fundamental **Array Data Struct
 git clone https://github.com/yoganand-cmd/DSA-JAVA.git
 ```
 
-2. Navigate to the Arrays folder:
+2. Navigate to the project:
 
 ```bash
-cd DSA-JAVA/ARRAYS
+cd DSA-JAVA
 ```
 
-3. Compile a Java file:
+3. Compile any Java program:
 
 ```bash
-javac Arraybasic.java
+javac filename.java
 ```
 
 4. Run the program:
 
 ```bash
-java Arraybasic
+java filename
 ```
 
----
+## 🎯 Purpose
 
-## 📈 Time Complexity Summary
+This repository is created to:
 
-| Algorithm | Time Complexity |
-|------------|----------------|
-| Linear Search | O(n) |
-| Binary Search | O(log n) |
-| Largest Element | O(n) |
-| Smallest Element | O(n) |
-| Reverse Array | O(n) |
-| Pair in Array | O(n²) |
-| Subarrays | O(n³) |
-| Max Subarray Sum (Brute Force) | O(n³) |
-| Max Subarray Sum (Prefix Sum) | O(n²) |
-| Kadane's Algorithm | O(n) |
-| Stock Buy & Sell | O(n) |
-| Trapping Rain Water | O(n) |
-| Duplicate Check | O(n²) |
+* Practice Java programming
+* Learn Data Structures and Algorithms
+* Prepare for coding interviews
+* Build a strong problem-solving foundation
 
----
+## 🛠️ Tech Stack
 
-## 🎯 Learning Objectives
+* Java
+* VS Code / IntelliJ IDEA
+* JDK 17+
 
-By completing these programs, you will understand:
-- How arrays are stored and manipulated.
-- Different searching techniques.
-- Optimization of brute-force solutions.
-- Common coding interview problems.
-- Time and space complexity analysis.
+## 📈 Upcoming Topics
 
----
+* Strings
+* Recursion
+* Bit Manipulation
+* Linked Lists
+* Stacks
+* Queues
+* Trees
+* Graphs
+* Dynamic Programming
 
-## 👨‍💻 Author
+## 🤝 Contributions
 
-**Pavuluri Yoganand**
+Suggestions and improvements are always welcome. Feel free to fork the repository and submit a pull request.
 
-GitHub: https://github.com/yoganand-cmd
+## ⭐ Support
 
----
-
-## ⭐ Contribute
-
-Feel free to fork this repository, improve existing solutions, and add more DSA problems.
-
-If you find this repository helpful, don't forget to **star ⭐ the repository**.
+If you found this repository helpful, consider giving it a ⭐ on GitHub.
