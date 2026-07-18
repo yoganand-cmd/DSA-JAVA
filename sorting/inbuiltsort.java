@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.*;// imports all functions
 //import java.utils.Arrays; import them specifically to use the methods
 //import java.utils.Collections;
 public class inbuiltsort{
