@@ -18,3 +18,4 @@ public class inbuiltsort{
   printArr(arr);
   }
 }
+// by using thes inbuilt functions u can sort array into ascending or descending order
