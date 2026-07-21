@@ -10,6 +10,7 @@ public static void insertion(int arr[]){
     }
     arr[prev+1]=curr;
   }
+}
 
    public static void printArr(int arr[]) {
         for (int i = 0; i < arr.length; i++) {
