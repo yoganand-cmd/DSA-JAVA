@@ -34,4 +34,5 @@ public class selectionsort{
     printarr(arr);
   }
 }
+
 //time complexity O(n2) simple swapcompared to bubble sort but time complexity is more as same
