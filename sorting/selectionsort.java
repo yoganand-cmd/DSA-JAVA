@@ -10,7 +10,7 @@ public class selectionsort{
     for(int i=0;i<arr.length-1;i++){
       int minpos=i;
       for(int j=i+1;j<arr.length;j++){
-        if(arr[minpos]>arr[j]){ // just change the greater than or less than operator for ascending order dorted array or decreasing order sorting array
+        if(arr[minpos]>arr[j]){  // just change the greater than or less than operator for ascending order dorted array or decreasing order sorting array
           minpos=j;
         }
       }
